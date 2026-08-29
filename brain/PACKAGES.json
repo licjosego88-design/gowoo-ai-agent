@@ -1,0 +1,110 @@
+{
+  "agency": "GOWOO",
+  "version": "1.0.0",
+
+  "package_strategy": {
+    "objective": "Crear soluciones creativas accesibles para diferentes niveles de necesidad y presupuesto.",
+    "principle": "El paquete debe resolver una necesidad concreta y tener un alcance claro.",
+    "rule": "No recomendar un paquete mayor si uno menor resuelve correctamente la necesidad del cliente."
+  },
+
+  "packages": {
+    "starter": {
+      "name": "GOWOO STARTER",
+      "purpose": "Soluciones creativas puntuales para clientes que necesitan comenzar rápidamente.",
+      "ideal_for": [
+        "Emprendedores",
+        "Pequeños negocios",
+        "Proyectos nuevos",
+        "Necesidades puntuales"
+      ],
+      "possible_services": [
+        "Logo Design",
+        "Flyer Design",
+        "Social Media Design",
+        "Basic Creative Direction"
+      ],
+      "price_status": "pending"
+    },
+
+    "brand": {
+      "name": "GOWOO BRAND",
+      "purpose": "Construcción de una identidad visual más completa para un negocio o proyecto.",
+      "ideal_for": [
+        "Nuevas marcas",
+        "Negocios que necesitan profesionalizar su imagen",
+        "Marcas que quieren reposicionarse"
+      ],
+      "possible_services": [
+        "Naming",
+        "Logo Design",
+        "Brand Identity",
+        "Visual Identity System",
+        "Basic Brand Guidelines"
+      ],
+      "price_status": "pending"
+    },
+
+    "creative": {
+      "name": "GOWOO CREATIVE",
+      "purpose": "Producción de piezas visuales y contenido creativo para comunicación y marketing.",
+      "ideal_for": [
+        "Redes sociales",
+        "Campañas",
+        "Promociones",
+        "Lanzamientos"
+      ],
+      "possible_services": [
+        "Social Media Design",
+        "Flyers",
+        "Advertising Creatives",
+        "Promotional Materials",
+        "Campaign Concepts"
+      ],
+      "price_status": "pending"
+    },
+
+    "strategy": {
+      "name": "GOWOO STRATEGY",
+      "purpose": "Ayudar a negocios que necesitan claridad estratégica antes de ejecutar diseño.",
+      "ideal_for": [
+        "Marcas sin dirección clara",
+        "Negocios en crecimiento",
+        "Rebranding",
+        "Nuevos proyectos"
+      ],
+      "possible_services": [
+        "Brand Audit",
+        "Brand Strategy",
+        "Brand Positioning",
+        "Brand Architecture",
+        "Content Strategy"
+      ],
+      "price_status": "pending"
+    }
+  },
+
+  "selection_logic": {
+    "low_budget": "Priorizar una solución puntual y de alto impacto.",
+    "new_business": "Evaluar primero identidad y posicionamiento.",
+    "existing_business": "Identificar el problema actual antes de recomendar servicios.",
+    "multiple_needs": "Considerar un paquete cuando agrupar servicios genere mayor valor.",
+    "uncertain_client": "Ayudar al cliente a identificar qué necesita antes de vender."
+  },
+
+  "sales_rules": {
+    "never": [
+      "Inventar precios",
+      "Inventar descuentos",
+      "Prometer resultados garantizados",
+      "Forzar un paquete",
+      "Ocultar el alcance del servicio"
+    ],
+    "always": [
+      "Explicar qué incluye la solución",
+      "Mantener el alcance claro",
+      "Relacionar la recomendación con la necesidad del cliente",
+      "Dar un siguiente paso concreto"
+    ]
+  }
+}
