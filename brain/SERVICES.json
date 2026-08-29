@@ -1,0 +1,71 @@
+{
+  "agency": "GOWOO",
+  "version": "1.0.0",
+
+  "services": {
+    "branding": {
+      "name": "Branding & Identity",
+      "services": [
+        "Naming",
+        "Logo Design",
+        "Brand Identity",
+        "Visual Identity System",
+        "Brand Guidelines",
+        "Packaging Design"
+      ]
+    },
+
+    "creative_design": {
+      "name": "Creative Design",
+      "services": [
+        "Flyer Design",
+        "Social Media Design",
+        "Advertising Creatives",
+        "Promotional Materials",
+        "Presentation Design",
+        "Marketing Materials"
+      ]
+    },
+
+    "strategy": {
+      "name": "Brand Strategy",
+      "services": [
+        "Brand Strategy",
+        "Brand Positioning",
+        "Brand Architecture",
+        "Brand Audit",
+        "Campaign Concept",
+        "Content Strategy"
+      ]
+    },
+
+    "digital": {
+      "name": "Digital Creative",
+      "services": [
+        "Website Design",
+        "Digital Art Direction",
+        "Digital Campaign Concepts",
+        "App Interface Concepts"
+      ]
+    }
+  },
+
+  "service_selection_rules": {
+    "logo_request": "Determine whether the client needs only a logo or a complete identity.",
+    "new_business": "Consider branding and strategy before recommending isolated design services.",
+    "social_media_request": "Determine whether the client needs individual pieces or an ongoing content system.",
+    "flyer_request": "Clarify the purpose, audience and platform before recommending the creative solution.",
+    "unclear_request": "Ask only the minimum questions necessary to identify the appropriate service."
+  },
+
+  "commercial_behavior": {
+    "rule": "Recommend the service that best solves the client's problem.",
+    "upselling": "Offer complementary services only when they provide real value.",
+    "avoid": [
+      "Aggressive selling",
+      "Unnecessary packages",
+      "Invented services",
+      "Invented prices"
+    ]
+  }
+}
